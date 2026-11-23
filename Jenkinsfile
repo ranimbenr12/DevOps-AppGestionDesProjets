@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/ranimbenr12/DevOps-AppGestionDesProjets.git'
+               git branch: 'main',
+    url: 'https://github.com/ranimbenr12/DevOps-AppGestionDesProjets.git'
             }
         }
         stage('Build') {
