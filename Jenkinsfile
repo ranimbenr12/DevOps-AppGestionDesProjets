@@ -92,4 +92,3 @@ pipeline {
         failure { echo 'Pipeline en échec : consulter les logs de la étape en erreur' }
     }
 }
-EOF
